@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Expert MOT testing, car servicing, and repairs in Clydebank, Glasgow. Class 4 & 7 MOTs. Domestic and commercial vehicles. Book online 24/7.",
   keywords: ["MOT Clydebank", "car service Clydebank", "garage Glasgow", "car repairs Clydebank"],
+  icons: {
+    icon: "/favicon.ico", // 👈 add this line
+  },
 };
 
 export default function RootLayout({
